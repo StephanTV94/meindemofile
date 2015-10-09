@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            System.out.println("Hallo Welt");
             return true;
         }
 
